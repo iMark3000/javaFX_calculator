@@ -1,0 +1,12 @@
+.label {
+	-fx-font-size: 20pt;
+	-fx-text-alignment: center;
+	-fx-font-family: monospace;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-width: 3pt;
+}
+
+.root {
+	-fx-background-color: black;
+}
