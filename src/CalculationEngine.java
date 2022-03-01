@@ -3,7 +3,7 @@ import java.util.List;
 
 public class CalculationEngine {
 
-    public List<MathObjects> inputContainer = new ArrayList<MathObjects>();
+    public InputStack inputContainer = new InputStack();
     public String calculatedString = "";
     public int orderOfOperation = 0;
     public int iterCounter = 0;
@@ -25,7 +25,7 @@ public class CalculationEngine {
     }
 
     public void clearInputContainer() {
-        inputContainer.clear();
+        inputContainer.clearStack();
     }
 
     public void runCalculation(){
